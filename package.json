@@ -1,0 +1,23 @@
+{
+  "name": "dashboardauth",
+  "version": "1.0.0",
+  "description": "Implimentation of authentication to understand authentication using oauth2.0 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mongo:start": "mongod --dbpath data/",
+    "mongo:connect": "mongo localhost:27017/beerlocker",
+    "start": "nodemon index.js"
+  },
+  "author": "Devarsh Shah",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.9",
+    "nodemon": "^1.10.2",
+    "passport": "^0.3.2",
+    "passport-http": "^0.3.0"
+  }
+}
